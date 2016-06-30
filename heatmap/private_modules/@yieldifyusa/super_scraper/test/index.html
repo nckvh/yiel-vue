@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+		<script>
+			window.yiel = {};
+			yiel.$ = jQuery;
+		</script>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	</head>
+	<style>
+		#starRating {
+			background: url(http://dwmvwp56lzq5t.cloudfront.net/johnvu_files/super_scraper/stars.jpg);
+		}
+	</style>
+	<body>
+		<div class="breadcrumb-list">
+			<ul>
+				<li class="breadcrumb"><a href="womens.html">Womens</a></li>
+				<li class="breadcrumb"><a href="tops.html">Tops</a></li>
+				<li class="breadcrumb"><a href="blouses.html">Blouses</a></li>
+			</ul>
+		</div>
+		<div class="product-details">
+			<h1 id="productName">Purple Blouse</h1>
+			<div class="product-image">
+				<img src="http://dwmvwp56lzq5t.cloudfront.net/johnvu_files/super_scraper/product.jpg">
+			</div>
+			<span id="starRating" data-value="4"></span>
+			<p id="productPrice">$39.99</p>
+			<select class="dropdown" id="productQty">
+				<option value="1" selected="true">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>					
+			</select>
+			<input type="hidden" id="hiddenInput" value="SaleItem">
+			<p id="productInfo">This is purple blouse. It is very purple and pretty. Please buy.</p>
+		</div>
+	</body>
+
+	<script src="../node_modules/mocha/mocha.js"></script>
+	<script src="../node_modules/chai/chai.js"></script>
+	<!--<script src="../lib/super_scraper.built.js"></script>-->
+	<script>
+		window.initMochaPhantomJS();
+		mocha.ui('bdd');
+	</script>
+	<script src="test-scrape.built.js"></script>
+	<script>
+		if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
+		else { mocha.run(); }
+	</script>
+</html>

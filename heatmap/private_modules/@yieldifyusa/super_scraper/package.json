@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "name": "@yieldifyusa/super_scraper",
+        "raw": "@yieldifyusa/super_scraper",
+        "rawSpec": "",
+        "scope": "@yieldifyusa",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Nicholas\\Desktop\\yieldify-vue\\heatmap"
+    ]
+  ],
+  "_from": "@yieldifyusa/super_scraper@latest",
+  "_id": "@yieldifyusa/super_scraper@1.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@yieldifyusa/super_scraper",
+  "_nodeVersion": "6.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/super_scraper-1.0.4.tgz_1467148117993_0.6065870774909854"
+  },
+  "_npmUser": {
+    "email": "john@yieldify.com",
+    "name": "johnyieldify"
+  },
+  "_npmVersion": "3.9.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "@yieldifyusa/super_scraper",
+    "raw": "@yieldifyusa/super_scraper",
+    "rawSpec": "",
+    "scope": "@yieldifyusa",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@yieldifyusa/super_scraper/-/super_scraper-1.0.4.tgz",
+  "_shasum": "a3ef57a5dee4164c63c25d27f58dde145280fdbf",
+  "_shrinkwrap": null,
+  "_spec": "@yieldifyusa/super_scraper",
+  "_where": "C:\\Users\\Nicholas\\Desktop\\yieldify-vue\\heatmap",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/yieldify-integrations/super_scraper_v2/issues"
+  },
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.8.0",
+    "babel-polyfill": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.6.1",
+    "chai": "^3.5.0",
+    "jquery": "^2.2.4",
+    "jsdom": "^9.1.0",
+    "mocha": "^2.5.3",
+    "webpack": "^1.13.0",
+    "xmldom": "^0.1.22"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "a3ef57a5dee4164c63c25d27f58dde145280fdbf",
+    "tarball": "https://registry.npmjs.org/@yieldifyusa/super_scraper/-/super_scraper-1.0.4.tgz"
+  },
+  "gitHead": "1229a0722c774d91f9ec799af349373d100f8b33",
+  "homepage": "https://github.com/yieldify-integrations/super_scraper_v2#readme",
+  "license": "ISC",
+  "main": "src/main.js",
+  "maintainers": [
+    {
+      "email": "john@yieldify.com",
+      "name": "johnyieldify"
+    },
+    {
+      "email": "nickv@yieldify.com",
+      "name": "nickvyieldify"
+    }
+  ],
+  "name": "@yieldifyusa/super_scraper",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yieldify-integrations/super_scraper_v2.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "(webpack && mocha-phantomjs -s loadImages=false -R spec ./test/index.html)"
+  },
+  "version": "1.0.4"
+}
